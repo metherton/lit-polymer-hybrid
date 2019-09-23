@@ -1,6 +1,7 @@
 // Import the LitElement base class and html helper function
 import { LitElement, html } from 'lit-element';
 
+
 // Extend the LitElement base class
 class MyElement extends LitElement {
 
@@ -20,6 +21,7 @@ class MyElement extends LitElement {
     return html`
       <!-- template content -->
       <p>A paragraph</p>
+      <paper-button id='p' raised>toggles</paper-button>
     `;
   }
 }
